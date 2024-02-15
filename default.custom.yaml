@@ -1,12 +1,13 @@
 customization:
-    distribution_code_name: Weasel
-    distribution_version: 0.15.0.0
-    generator: "Rime::SwitcherSettings"
-    modified_time: "Mon Sep 18 23:21:38 2023"
-    rime_version: 1.8.5
+  distribution_code_name: Weasel
+  distribution_version: 0.15.0.0
+  generator: "Rime::SwitcherSettings"
+  modified_time: "Fri Feb 16 00:42:55 2024"
+  rime_version: 1.8.5
 patch:
-    schema_list:
-        - { schema: luna_pinyin }
-    "menu/page_size": 4
-    "ascii_composer/switch_key/Shift_L": commit_code
-    "ascii_composer/switch_key/Shift_R": commit_code
+  "ascii_composer/switch_key/Shift_L": commit_code
+  "ascii_composer/switch_key/Shift_R": commit_code
+  "menu/page_size": 4
+  schema_list:
+    - {schema: luna_pinyin}
+    - {schema: luna_pinyin_simp}
